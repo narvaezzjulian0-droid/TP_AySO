@@ -39,6 +39,7 @@ EOF
 git commit -m "Update: cambios en datos_usuario"
 git push
 history -a
-HOME/.bash_history
-$HOME/.bash_history
-history -a
+cp ~/.bash_history ./Historial_comandos_Guille.txt
+git add Historial_comandos_Guille.txt
+git commit -m "ADD: Historial de comandos de Guille"
+git push
